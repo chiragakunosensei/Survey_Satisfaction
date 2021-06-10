@@ -13,7 +13,7 @@
 
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Ordinal Levels of Importance', 'No At All', 'Not Very', 'Slightly', 'Somewhat', 'Extremely'],
+          ['Ordinal Levels of Importance', 'Not At All', 'Not Very', 'Slightly', 'Somewhat', 'Extremely'],
           ['Cost', 1, 2, 7, 24, 15],
           ['Smell', 1, 4, 8, 24, 13],
           ['Feel', 1, 1, 6, 20, 22],
@@ -31,7 +31,7 @@
           title: 'Survey Responses'
           },
           height: 400,
-          colors: ['yellow', 'grey', 'purple', 'red', 'blue' ]
+          colors: ['grey', 'yellow', 'blue', 'purple', 'red' ]
         };
 
         var chart = new google.charts.Bar(document.getElementById('chart_div'));
